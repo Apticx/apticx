@@ -4,10 +4,10 @@ I is I, Apticx and thats my GitHub Profile.
 For now i only use it for my Apti.cx website but we will see how far i can make it.
 
 
-#Current Projects:
+# Current Projects:
   - apti.cx
 
-#Currently learning
+# Currently learning
   - c++
   - html, css
 
