@@ -1,8 +1,17 @@
-### Hi there 👋
+### Yo!
 
-I like cookies!
+I is I, Apticx and thats my GitHub Profile.
+For now i only use it for my Apti.cx website but we will see how far i can make it.
 
-This is a Test
+
+#Current Projects:
+  - apti.cx
+
+#Currently learning
+  - c++
+  - html, css
+
+
 <!--
 **Apticx/apticx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
