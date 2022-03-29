@@ -1,10 +1,10 @@
-#### Yo!
+# Yo! Welcome to my GitHub Profile!
 
-I is I, Apticx and thats my GitHub Profile.
+I is I, Apticx and now you are gonna lose some braincells on my crooked commitments..... sorry for that!
 For now i only use it for my Apti.cx website but we will see how far i can make it.
 
 
-# Current Projects:
+## Current Projects:
   - apti.cx
 
 ## Currently learning
