@@ -117,8 +117,5 @@ h3{
 .feed-col:hover{
   box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.2);
 }
-@media (max-width: 700px) {
-  .row{
-    flex-direction: column;
-  }
+
 }
