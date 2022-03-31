@@ -8,13 +8,13 @@
 .header{
   min-height:  100vh;
   width: 100%;
-  background-color: rgb(222, 222, 222);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/homebg.png);
   background-position: center;
 }
 .header_about{
   min-height:  10vh;
   width: 100%;
-  background-color: rgb(222, 222, 222);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/homebg.png);
   background-position: center;
 }
 nav{
@@ -27,7 +27,7 @@ nav{
   flex: 1;
   text-align: right;
 }
-.nav-links ul li{
+.nav-links u1 li{
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
