@@ -1,20 +1,20 @@
 *{
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Code Pro', monospace;
 
 
 }
-.header{
+.header_home{
   min-height:  100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/homebg.png);
+  background-color: rgb(69, 69, 169);
   background-position: center;
 }
-.header_about{
+.header{
   min-height:  10vh;
   width: 100%;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(img/homebg.png);
+  background-color: rgb(69, 69, 169);
   background-position: center;
 }
 nav{
@@ -41,7 +41,7 @@ nav{
 .nav-links ul li::after{
   content: "";
   width: 0%;
-  height: 2px;
+  height: 1px;
   background: #fff;
   display: block;
   margin: auto;
@@ -61,6 +61,7 @@ nav{
 }
 .text-box h1{
   font-size: 62px;
+  color: #fff;
 }
 .text-box p{
   margin: 10px 0 40px;
@@ -96,9 +97,10 @@ nav{
 h1{
   font-size: 36px;
   font-weight: 600;
+  color: #000;
 }
 p {
-  color: #000;
+  color: #fff;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -108,10 +110,11 @@ p {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
+  color: #fff;
 }
 .feed-col{
   flex-basis: 31%;
-  background: rgb(222, 222, 222);
+  background: rgb(69, 69, 169);
   border-radius: 10px;
   margin-bottom: 5%;
   padding: 20px 12px;
@@ -131,4 +134,12 @@ h3{
   width: 80%;
   margin:auto;
   text-align: center;
+}
+h2{
+  text-align: center;
+  font-size: 36px;
+}
+.about {
+  text-align: left;
+  margin-top: 69px;
 }
