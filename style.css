@@ -100,7 +100,7 @@ h1{
   color: #000;
 }
 p {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -110,11 +110,10 @@ p {
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
-  color: #fff;
+  color: #000;
 }
 .feed-col{
   flex-basis: 31%;
-  background: rgb(255, 255, 255);
   border-radius: 10px;
   border-color: rgb(69, 69, 169);
   margin-bottom: 5%;
@@ -127,7 +126,7 @@ h3{
   margin: 10px;
 }
 .feed-col:hover{
-  box-shadow: 0 0 12px 0px rgba(69, 69, 169, 0.9);
+  box-shadow: 0 0 6px 0px rgba(69, 69, 169, 1);
 }
 /*whoami*/
 
