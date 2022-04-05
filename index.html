@@ -2,19 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <title>home</title>
     <meta name="apti.cx: home" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e301d081e1.js" crossorigin="anonymous"></script>
 </head>
-
   <body>
     <section class="header_home">
       <nav>
         <a href="index.html"><img src="img/logo_white.png">
-          <div class="nav-links">
+          <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
           <ul>
             <li> <a href="index.html">HOME</a> </li>
             <li> <a href="pages/about.html">ABOUT</a> </li>
@@ -23,6 +25,7 @@
             <li> <a href="pages/contact.html">CONTACT</a> </li>
           </ul>
           </div>
+          <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </a>
       </nav>
 
@@ -63,6 +66,14 @@
       <h2>so who is that apticx person</h2>
       <p>apticx is not done with that section yet </p>
     </section>
-
+<script>
+  var navLinks = document.getElementById("navLinks");
+  function showMenu(){
+    navLinks.style.right = "0"
+  }
+  function hideMenu(){
+    navLinks.style.right = "200px"
+  }
+</script>
   </body>
 </html>
