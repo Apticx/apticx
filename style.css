@@ -163,6 +163,11 @@ h3{
   background-color: rgb(69, 69, 169);
   color: #fff;
 }
+@media(max-width: 700px){
+  .row{
+    flex-direction: column;
+  }
+}
 /*for phone*/
 
 
