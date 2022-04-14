@@ -134,6 +134,9 @@ h3{
 
 
 @media(max-width: 700px){
+  .text-box{
+    padding-top: 35%%;
+  }
   .nav-links ul li{
     display: contents;
     padding: 18px 12px;
