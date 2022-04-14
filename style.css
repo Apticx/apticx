@@ -92,10 +92,12 @@ nav .fa{
 /*-- feed --*/
 
 .feed {
-  width: 100%;
+  background-color: #ffd740;
+}
+.feedwidth{
+  width: 90%;
   margin: auto;
   text-align: center;
-  background-color: #ffd740;
   padding-top: 100px;
 }
 h1{
@@ -118,7 +120,7 @@ p {
 }
 .feed-col{
 
-  flex-basis: 31%;
+  flex-basis: 28%;
   margin-bottom: 12%;
   padding: 25px 4px ;
   transition: 0.4s;
@@ -159,5 +161,6 @@ h3{
   }
   .row{
     flex-direction: column;
+    padding-top: 40px;
   }
 }
