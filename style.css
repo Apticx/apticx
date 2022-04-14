@@ -52,11 +52,6 @@ nav{
 .nav-links ul li:hover::after{
   width: 100%
 }
-@media(max-width: 700px){
-  .nav-links{
-    text-align: center;
-  }
-}
 .text-box{
   width: 80%;
   color: #fff;
@@ -91,35 +86,6 @@ nav{
 }
 nav .fa{
     display: none;
-}
-@media(max-width:700px){
-  .text-box h1{
-    font-size: 20px;
-  }
-  .nav-links ul li{
-    display:block;
-  }
-  .nav-links{
-    position: absolute;
-    background: #f44336;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
-  }
-  nav .fa{
-    display: block;
-    color: #fff;
-    margin: 10px;
-    font-size: 22px;
-    cursor: pointer;
-  }
-  .nav-links ul{
-    padding: 30px;
-  }
 }
 /*-- feed --*/
 
@@ -163,16 +129,26 @@ h3{
   color: #000;
 
 }
+
+/*for phone*/
+
+
 @media(max-width: 700px){
+  .nav-links ul li{
+    display: contents;
+    padding: 18px 12px;
+    position: fixed;
+  }
+  .nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
   .row{
     flex-direction: column;
   }
 }
-/*for phone*/
-
-
-
-
 
 
 /*whoami*/
