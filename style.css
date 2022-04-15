@@ -142,7 +142,7 @@ h3{
 /*for phone*/
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 800px){
   .text-box h1{
     font-size: 28px;
   }
