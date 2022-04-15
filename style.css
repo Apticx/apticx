@@ -54,16 +54,11 @@ nav{
 .nav-links ul li:hover::after{
   width: 100%
 }
-.home_headerposition{
-  position:relative;
-}
 .text-box{
   width: 80%;
   color: #fff;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(10%, 20vh);
+
   text-align: center;
 }
 .text-box h1{
@@ -149,8 +144,9 @@ h3{
 
 @media(max-width: 700px){
   .text-box h1{
-    padding-top: 15%;
     font-size: 28px;
+  }
+  .text-box{
   }
   .nav-links ul li{
     display:contents;
