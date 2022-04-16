@@ -11,8 +11,10 @@
   background-position: center;
 }
 .home_headerarea{
-  min-height: 90vh;
+  min-height: 81vh;
+  width: 100%;
   background-color: black;
+
 }
 nav{
   display: flex;
@@ -55,12 +57,16 @@ nav{
   margin-right: 10%;
   width: 80%;
   text-align: center;
+  min-height: 81vh;
+  background-image:url(img/row2.png);
+  background-size: 20%;
+  background-repeat: repeat-x;
 }
 .text-box h1{
   font-size: 69px;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
-  padding-top: 20vh;
+  padding-top: 16vh;
 }
 .text-box p{
   margin: 14px 0 40px;
