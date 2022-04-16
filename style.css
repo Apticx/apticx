@@ -16,6 +16,12 @@
   background-color: black;
 
 }
+.aftermenu{
+  background-image:url(img/row2.png);
+  background-repeat: repeat-x;
+  min-height: 24px;
+  background-size: 128px;
+}
 nav{
   display: flex;
   padding: 2% 4%;
@@ -58,9 +64,7 @@ nav{
   width: 80%;
   text-align: center;
   min-height: 81vh;
-  background-image:url(img/row2.png);
-  background-size: 20%;
-  background-repeat: repeat-x;
+
 }
 .text-box h1{
   font-size: 69px;
@@ -148,6 +152,10 @@ h3{
   .nav-links ul li{
     display:contents;
   }
+  .aftermenu{
+      min-height: 36px;
+      background-size: 180px;
+  }
   .nav-links ul li::after{
     content: "";
     width: 0%;
@@ -167,11 +175,12 @@ h3{
     background: #fff;
     position: relative;
     box-shadow: 5px 5px gray
+
   }
   .text-box{
   }
   .text-box h1{
     font-size: 28px;
-      padding-top: 0%;
+      padding-top: 30px;
   }
 }
