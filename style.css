@@ -8,7 +8,9 @@
   min-height: 10vh;
   width: 100%;
   background-color: #000;
-  background-position: center;
+  background-image: url(img/row2.png);
+  background-repeat: repeat-x;
+  background-size: 180px;
 }
 .home_headerarea{
   min-height: 81vh;
@@ -17,12 +19,6 @@
 
 }
 .aftermenu{
-  background-image:url(img/row2.png);
-  background-repeat: repeat-x;
-  min-height: 54px;
-  background-size: 295px;
-  max-width: 80%;
-  margin-left: 10%;
 }
 nav{
   display: flex;
@@ -65,11 +61,13 @@ nav{
   margin-right: 10%;
   width: 80%;
   text-align: center;
-  min-height: 81vh;
+  min-height: 100%;
 
 }
 .text-box h1{
   font-size: 69px;
+  display: block;
+  text-align: center;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
   padding-top: 16vh;
@@ -85,7 +83,8 @@ nav{
   color: #000;
   padding: 12px 34px;
   font-size: 24px;
-  background: #fff;
+  background-color: white;
+  background-size: 40%;
   position: relative;
   box-shadow: 5px 5px gray
 }
@@ -151,6 +150,9 @@ h3{
 /*portfolio.html*/
 /*for phone*/
 @media only screen and (max-width: 800px){
+  .header{
+    background-size: 80px;
+  }
   .nav-links ul li{
     display:contents;
   }
