@@ -19,11 +19,11 @@
 .aftermenu{
 }
 .home_headerarea{
-  min-height: 70vh;
+  min-height: 65vh;
   width: 100%;
   background-color: black;
   background-image: url(img/test.png);
-  padding-top: 20vh;
+  padding-top: 25vh;
   background-size: contain;
 
 }
