@@ -89,13 +89,12 @@ nav{
 .homebutton{
   display: inline-block;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   padding: 12px 34px;
   font-size: 24px;
-  background-color: white;
+  background-color: black;
   background-size: 40%;
   position: relative;
-  box-shadow: 5px 5px gray
 }
 .homebutton:hover{
   background: #00c853;
