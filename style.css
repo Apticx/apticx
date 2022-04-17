@@ -71,7 +71,7 @@ nav{
   width: 80%;
   padding: 20px;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.5);
+
 }
 .text-box h2{
   font-size: 69px;
@@ -92,7 +92,6 @@ nav{
   color: #fff;
   padding: 12px 34px;
   font-size: 24px;
-  background-color: black;
   background-size: 40%;
   position: relative;
 }
