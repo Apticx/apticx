@@ -7,10 +7,7 @@
 .header{
   min-height: 10vh;
   width: 100%;
-  background-color: #000;
-  background-image: url(img/row2.png);
-  background-repeat: repeat-x;
-  background-size: 180px;
+  background-color: black;
 }
 .home_headerarea{
   min-height: 80vh;
@@ -150,9 +147,6 @@ h3{
 /*portfolio.html*/
 /*for phone*/
 @media only screen and (max-width: 800px){
-  .header{
-    background-size: 80px;
-  }
   .nav-links ul li{
     display:contents;
   }
