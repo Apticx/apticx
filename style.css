@@ -22,7 +22,8 @@
   min-height: 65vh;
   width: 100%;
   background-color: black;
-  background-image: url(img/test.png);
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)), url(img/test.png);
+  background-repeat: no-repeat;
   padding-top: 25vh;
   background-size: contain;
 
