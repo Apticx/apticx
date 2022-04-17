@@ -5,17 +5,27 @@
 }
 /*index.html*/
 .header{
+  display: block;
   min-height: 10vh;
   width: 100%;
   background-color: black;
-}
-.home_headerarea{
-  min-height: 80vh;
-  width: 100%;
-  background-color: black;
-
+  background-image: url(img/icon.svg);
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  background-position: left;
+  background-position: 5%;
 }
 .aftermenu{
+}
+.home_headerarea{
+  min-height: 70vh;
+  width: 100%;
+  background-color: black;
+  background-image: url(img/test.png);
+  padding-top: 20vh;
+  background-size: contain;
+
 }
 nav{
   display: flex;
@@ -57,17 +67,17 @@ nav{
   margin-left: 10%;
   margin-right: 10%;
   width: 80%;
+  padding: 20px;
   text-align: center;
-  min-height: 100%;
-
+  background-color: rgba(0, 0, 0, 0.5);
 }
-.text-box h1{
+.text-box h2{
   font-size: 69px;
+  font-weight: 800;
   display: block;
   text-align: center;
   color: #fff;
   font-family: 'Roboto Mono', monospace;
-  padding-top: 16vh;
 }
 .text-box p{
   margin: 14px 0 40px;
@@ -153,6 +163,11 @@ h3{
   .aftermenu{
       min-height: 36px;
       background-size: 180px;
+  }
+  .home_headerarea{
+    padding-top: 5vh;
+    min-height: 85vh;
+
   }
   .nav-links ul li::after{
     content: "";
