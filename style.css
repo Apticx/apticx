@@ -10,7 +10,7 @@
   min-height: 10vh;
   width: 100%;
   background-color: black;
-  background-image: url(img/icon.svg);
+ /* background-image: url(img/icon.svg);*/
   background-repeat: no-repeat;
   background-size: 100px;
   background-position: center;
@@ -103,7 +103,7 @@ nav .fa{
     display: none;
 }
 .feed {
-  background-color: #ffd740;
+  background-color: #000000;
 }
 .feedwidth{
   width: 90%;
@@ -114,7 +114,7 @@ nav .fa{
 h1{
   font-size: 36px;
   font-weight: 600;
-  color: #000;
+  color: rgb(255, 255, 255);
   width: 100%;
 }
 p {
@@ -127,7 +127,7 @@ p {
   margin-top: 6%;
   display: flex;
   justify-content: space-between;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 .feed-col{
 
@@ -135,9 +135,9 @@ p {
   margin-bottom: 12%;
   padding: 25px 4px ;
   transition: 0.4s;
-  color: #000;
+  color: rgb(255, 255, 255);
   border-style: dashed;
-  border-color: black;
+  border-color: rgb(255, 255, 255);
   border-width: thick;
   border-radius: 4px
 }
@@ -147,7 +147,7 @@ h3{
   margin: 10px;
 }
 .feed-col:hover{
-  box-shadow: inset 0px -14px black;
+  box-shadow: inset 0px -14px rgb(255, 255, 255);
 
 }
 
