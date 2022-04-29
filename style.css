@@ -185,11 +185,13 @@ nav{
       padding: 0px;
     }
     .home_textbox{
-        width: 95%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
 
     }
     .home_textbox h1{
-        font-size: 32px;
+        font-size: 42px;
     }
     .home_textbox p{
         margin: 14px 0 40px;
