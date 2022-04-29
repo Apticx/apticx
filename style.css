@@ -14,6 +14,11 @@
     min-height: 5vh;
     width: 100%;
     background-color: black;
+    background-image: url(img/icon.svg);
+    background-position: left;
+    background-size: 6vh;
+    background-repeat: no-repeat;
+    background-position: 4%;
 }
 /*navigation bar top right*/
 nav{
@@ -108,6 +113,7 @@ nav{
 .feed{
   background-color: #000000;
   padding-top: 100px;
+  
 }
 .feed h1{
     font-size: 36px;
@@ -144,11 +150,14 @@ nav{
 
 /*mobile*/
 @media only screen and (max-width: 800px){
+    .header{
+        background-size: 12vh;
+    }
     .navbar ul li{
         display:contents;
     }
     .home_header{
-        padding-top: 5vh;
+        padding-top: 1vh;
         min-height: 85vh;
     
     }
@@ -165,19 +174,21 @@ nav{
         padding-top: 40px;
     }
     .home_button{
-        color: #000;
+        color: rgb(255, 255, 255);
         padding: 6px 14px;
         font-size: 18px;
-        background: #fff;
+        background: rgba(255, 255, 255, 0.1);
         position: relative;
-        box-shadow: 5px 5px gray
     
      }
     .text-box{
       padding: 0px;
     }
-    .text-box h2{
-        font-size: 38px;
-          padding-top: 30px;
-      
+    .home_textbox h1{
+        font-size: 26px;
+    }
+    .home_textbox p{
+        margin: 14px 0 40px;
+        font-size: 16px;
+    }
 }
