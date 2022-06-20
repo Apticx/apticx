@@ -91,6 +91,7 @@ nav{
     color: #fff;
     font-weight: 300;
     font-family: 'Dela Gothic One', cursive;
+    padding-bottom: 20px;
 }
 .home_textbox p{
     margin: 14px 0 40px;
@@ -159,9 +160,15 @@ nav{
     background-position: center;
     background-repeat: no-repeat;
 }
-
-/*mobile*/
-@media only screen and (max-width: 800px){
+.wallpaperpackcontent{
+    padding: 20px;
+}
+.wallpaperpack{
+    background-image:url(img/test.png);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;S
     .header{
         background-size: 12vh;
     }
