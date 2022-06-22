@@ -249,3 +249,10 @@ nav{
         font-size: 16px;
     }
 }
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}

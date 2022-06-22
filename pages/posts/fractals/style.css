@@ -227,4 +227,18 @@ span::before{
     .heading h1{
         font-size: 38px;
     }
+    .ytlink{
+        width: 80%;
+        height: 20%;
+        margin-left: 6%;
+
+    }
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 200px;
+    padding-bottom: 50px;
 }
