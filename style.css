@@ -106,7 +106,7 @@ nav{
     background-size: 40%;
     position: relative;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.0.4);
     border: 2px;
     border-radius: 50px;
 
@@ -231,7 +231,7 @@ nav{
         color: rgb(255, 255, 255);
         padding: 6px 14px;
         font-size: 28px;
-        background: rgba(0, 0, 0, 0.5);
+        background: rgba(0, 0, 0, 0.1);
         position: relative;
         border-radius: 0px;
     
