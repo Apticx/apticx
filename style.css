@@ -166,6 +166,7 @@ nav{
 }
 .row1:hover{
     background-color: rgba(255, 255, 255, 0.2);
+    font-size: large;
     transition-duration: 2s;
 }
 .row2content{
@@ -181,6 +182,7 @@ nav{
 }
 .row2:hover{
     background-color: rgba(255, 255, 255, 0.2);
+    font-size: large;
     transition-duration: 2s;
 }
 .row3content{
@@ -196,6 +198,7 @@ nav{
 }
 .row3:hover{
     background-color: rgba(255, 255, 255, 0.2);
+    font-size: large;
     
 }
 /*mobile*/
