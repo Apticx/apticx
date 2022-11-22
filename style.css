@@ -157,7 +157,7 @@ nav{
     padding: 20px;
 }
 .row1{
-    background-image:url(img/fractals.jpg);
+    background-image:url(img/sophisticated_miner.jpg);
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
     background-position: center;
@@ -173,7 +173,7 @@ nav{
     padding: 20px;
 }
 .row2{
-    background-image:url(img/test.png);
+    background-image:url(img/fractals.jpg);
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
     background-position: center;
@@ -189,7 +189,7 @@ nav{
     padding: 20px;
 }
 .row3{
-    background-image:url(img/apticx_logo_black.png);
+    background-image:url(img/test.png);
     background-color: rgba(0, 0, 0, 0.6);
     background-blend-mode: darken;
     background-position: center;
