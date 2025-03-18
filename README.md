@@ -1,15 +1,16 @@
 # Hi, I'm Apticx
 Usually my Time is spent making Music and creating Art but sometimes those can use some support by tools that dont exist yet.
 
-Current obsessions: hardware design
-Current Projects: lsdj / m8 headless dj controller, apti.cx redesign
-
+## Current obsessions: 
+  - hardware design
 
 ## Current Projects:
   - apti.cx
+  - hardware keypad for m8
 
 ## Currently learning
   - c++
+  - micropython
   - html, css
 
 
