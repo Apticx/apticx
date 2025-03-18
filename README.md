@@ -1,7 +1,8 @@
-# Yo! Welcome to my GitHub Profile!
+# Hi, I'm Apticx
+Usually my Time is spent making Music and creating Art but sometimes those can use some support by tools that dont exist yet.
 
-I is I, Apticx and now you are gonna lose some braincells on my crooked commitments..... sorry for that!
-For now i only use it for my Apti.cx website but we will see how far i can make it.
+Current obsessions: hardware design
+Current Projects: lsdj / m8 headless dj controller, apti.cx redesign
 
 
 ## Current Projects:
